@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [],
+                "item": {
+                    "items": [
+                        "minecraft:potion"
+                    ],
+                    "potion": "minecraft:water"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "survival:drink"
+    }
+}
